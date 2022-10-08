@@ -1,0 +1,106 @@
+/* 
+    Name: Noah King
+    Date: October 8th, 2022
+    Section: CST8285 Section 300
+    Provides styling for Lab3.html that meets the requirements of lab3. Makes use several different selector types and CSS styling
+    techniques like layout (flexbox, float), the box model, and general styling such as color, font families and sizing. 
+    Also organized with extensive use of comments broken down by sections you can search for using the | character.
+*/
+
+/* | SITEWIDE / GENERAL STYLES */
+body {
+  background-color: #ddd78d;
+  color: #222831;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+header,
+footer {
+  background-color: #60594d;
+  border: 4px solid #222831;
+  color: #93a29b; /* Override documents general text color. */
+  padding: 10px;
+}
+
+nav {
+  font-size: 12pt;
+}
+
+a {
+  color: #222831;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8b635c;
+}
+
+p,
+li {
+  font-size: 14pt;
+  margin: 10px 0;
+}
+
+blockquote {
+  background-color: #dcbf85;
+  margin: 0 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Title heading. */
+h1 {
+  font-size: 3em;
+}
+
+/* Section headings. */
+h2 {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+/* Headings for the unordered list in the second section. */
+h3 {
+  font-weight: bold;
+}
+
+/* | HEADER & MAIN NAVIGATION */
+.header-link-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+header li {
+  list-style: none;
+}
+
+.header-link {
+  background-color: lightgray;
+  border: 2px solid #222831;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.header-link:hover {
+  background-color: #8b635c;
+  color: #222831;
+}
+
+/* | IMAGE */
+img {
+  width: 25vw;
+  margin: 10px;
+  float: right;
+}
+
+/* | FOOTER */
+footer nav {
+  text-align: center;
+  margin: 20px auto;
+}
+
+footer p {
+  font-size: 10pt;
+  font-style: italic;
+  text-align: right;
+}
